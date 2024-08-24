@@ -1,153 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Box Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
 
-  <!-- sass -->
-  <link rel="stylesheet" href="css/index.css">
+    <!-- sass -->
+    <link rel="stylesheet" href="css/index.css" />
 
-  <!-- JavaScript -->
-  <script src="JS/app.js" defer></script>
+    <!-- JavaScript -->
+    <script src="JS/app.js" defer></script>
 
-  <title>Document</title>
-</head>
-<body>
-  
-  <section id="home">
-    <div class="circle"></div>
-    <header>
-      <img src="/images/logo.png" alt="" class="logo">
-      <div class="href">
-        <a href="#home">Home</a>
-        <a href="#product">Shop</a>
-        <a href="#new">Delivery</a>
-        <a href="#app">App</a>
-      </div>
-    </header>
-
-    <div class="content">
-      <div class="textBox">
-        <h2>It's not just Coffee<br> It's <span>Starbucks</span></h2>
-        <p class="textLorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eum, dignissimos similique, repellendus hic, numquam nesciunt aut sit corrupti cum quas. Temporibus vitae accusantium quo provident quibusdam distinctio officiis. Ea.</p>
-        <a href="#">Learn More</a>
-      </div>
-      <div class="imgBox">
-        <img src="/images/img1.png" alt="" class="starbucks">
-      </div>
-    </div>
-
-    <ul class="thumb">
-      <li><img src="/images/thumb1.png" alt="" onclick = "imgSlider('/images/img1.png'); changeCircleColor('#017143')"></li>
-      <li><img src="/images/thumb2.png" alt="" onclick = "imgSlider('/images/img2.png'); changeCircleColor('#eb7495')"></li>
-      <li><img src="/images/thumb3.png" alt="" onclick = "imgSlider('/images/img3.png'); changeCircleColor('#d752b1')"></li>
-    </ul>
-
-    <ul class="sci">
-      <li><a href="#"><img src="/images/facebook.png" alt=""></a></li>
-      <li><a href="#"><img src="/images/instagram.png" alt=""></a></li>
-      <li><a href="#"><img src="/images/twitter.png" alt=""></a></li>
-    </ul>
-  </section>
-
-  <section class="products" id="product">
-    <div class="top-content">
-      <p>Shop now</p>
-      <h1>Shop Coffee</h1>
-    </div>
-
-    <div class="product-container">
-      <div class="first l1">
-        <img src="/images/products/shop1.png" alt="" class="img-products">
-        <div class="star">
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star-half'></i>
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="home">
+      <div class="circle"></div>
+      <header>
+        <img src="/images/logo.png" alt="" class="logo" />
+        <div class="href">
+          <a href="#home">Home</a>
+          <a href="#product">Shop</a>
+          <a href="#new">Delivery</a>
+          <a href="#app">App</a>
         </div>
-        <h3>Starbucks coffee</h3>
-        <p>$ 12.4</p>
-        <a href="#">Order Now</a>
-      </div>
+      </header>
 
-      <div class="first l2">
-        <img src="/images/products/shop2.png" alt="" class="img-products">
-        <div class="star">
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star-half'></i>
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            It's not just Coffee<br />
+            It's <span>Starbucks</span>
+          </h2>
+          <p class="textLorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            eum, dignissimos similique, repellendus hic, numquam nesciunt aut
+            sit corrupti cum quas. Temporibus vitae accusantium quo provident
+            quibusdam distinctio officiis. Ea.
+          </p>
+          <a href="#">Learn More</a>
         </div>
-        <h3>Starbucks coffee</h3>
-        <p>$ 12.4</p>
-        <a href="#">Order Now</a>
-      </div>
-
-      <div class="first l3">
-        <img src="/images/products/shop3.png" alt="" class="img-products">
-        <div class="star">
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star-half'></i>
+        <div class="imgBox">
+          <img src="./images/img1.png" alt="" class="starbucks" />
         </div>
-        <h3>Starbucks coffee</h3>
-        <p>$ 12.4</p>
-        <a href="#">Order Now</a>
       </div>
-    </div> 
-  </section>
 
-  <section class="new" id="new">
-    <div class="top-new">
-      <p>Get Now</p>
-      <h1>order with uber eats</h1>
-    </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./images/thumb1.png"
+            alt=""
+            onclick="imgSlider('/images/img1.png'); changeCircleColor('#017143')"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/thumb2.png"
+            alt=""
+            onclick="imgSlider('/images/img2.png'); changeCircleColor('#eb7495')"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/thumb3.png"
+            alt=""
+            onclick="imgSlider('/images/img3.png'); changeCircleColor('#d752b1')"
+          />
+        </li>
+      </ul>
 
-    <div class="all">
-      <div class="left">
-        <img src="/images/products/delivery.png" alt="" class="photo">
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="./images/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/instagram.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/twitter.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="products" id="product">
+      <div class="top-content">
+        <p>Shop now</p>
+        <h1>Shop Coffee</h1>
       </div>
-      <div class="right">
-        <h2>Today deserve delivery</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque alias magnam repudiandae architecto quisquam eum quod quo omnis voluptatibus. Error facere doloribus dolores omnis eaque quod officiis quasi quo? Neque?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis ad autem deserunt quis nisi eveniet doloremque. Architecto sint unde, libero dolore voluptatibus nemo id iste aliquid laudantium! Quia, dicta non!</p>
-        <a href="#">Order Now</a>
-      </div>
-    </div>
-  </section>
 
-  <section id="app">
-    <div class="top-app">
-      <p>our app</p>
-      <h1>download app</h1>
-    </div>
+      <div class="product-container">
+        <div class="first l1">
+          <img src="./images/products/shop1.png" alt="" class="img-products" />
+          <div class="star">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h3>Starbucks coffee</h3>
+          <p>$ 12.4</p>
+          <a href="#">Order Now</a>
+        </div>
 
-    <div class="all">
-      <div class="left">
-        <h2>Fall into an easier  routine</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vitae cumque porro corrupti reprehenderit impedit, quasi voluptates mollitia consequatur odio illum ex esse iure, voluptas sint amet, aut velit nobis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, voluptatibus at ratione iusto vitae voluptate tempore quisquam voluptas labore aut, magnam explicabo exercitationem accusamus doloribus! Alias dolor dolorum commodi minima.</p>
-        <a href="#">Get App</a>
-      </div>
-      <div class="right">
-        <img src="/images/products/app.png" alt="" class="photo">
-      </div>
-    </div>
-  </section>
+        <div class="first l2">
+          <img src="./images/products/shop2.png" alt="" class="img-products" />
+          <div class="star">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h3>Starbucks coffee</h3>
+          <p>$ 12.4</p>
+          <a href="#">Order Now</a>
+        </div>
 
-</body>
+        <div class="first l3">
+          <img src="./images/products/shop3.png" alt="" class="img-products" />
+          <div class="star">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h3>Starbucks coffee</h3>
+          <p>$ 12.4</p>
+          <a href="#">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="new" id="new">
+      <div class="top-new">
+        <p>Get Now</p>
+        <h1>order with uber eats</h1>
+      </div>
+
+      <div class="all">
+        <div class="left">
+          <img src="./images/products/delivery.png" alt="" class="photo" />
+        </div>
+        <div class="right">
+          <h2>Today deserve delivery</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque alias
+            magnam repudiandae architecto quisquam eum quod quo omnis
+            voluptatibus. Error facere doloribus dolores omnis eaque quod
+            officiis quasi quo? Neque?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis ad
+            autem deserunt quis nisi eveniet doloremque. Architecto sint unde,
+            libero dolore voluptatibus nemo id iste aliquid laudantium! Quia,
+            dicta non!
+          </p>
+          <a href="#">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="app">
+      <div class="top-app">
+        <p>our app</p>
+        <h1>download app</h1>
+      </div>
+
+      <div class="all">
+        <div class="left">
+          <h2>Fall into an easier routine</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            vitae cumque porro corrupti reprehenderit impedit, quasi voluptates
+            mollitia consequatur odio illum ex esse iure, voluptas sint amet,
+            aut velit nobis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque,
+            voluptatibus at ratione iusto vitae voluptate tempore quisquam
+            voluptas labore aut, magnam explicabo exercitationem accusamus
+            doloribus! Alias dolor dolorum commodi minima.
+          </p>
+          <a href="#">Get App</a>
+        </div>
+        <div class="right">
+          <img src="./images/products/app.png" alt="" class="photo" />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
